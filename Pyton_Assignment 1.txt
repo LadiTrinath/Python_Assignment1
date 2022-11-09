@@ -1,0 +1,239 @@
+## Assignment Part-1
+Q1. Why do we call Python as a general purpose and high-level programming language?
+ANS- 1.Python is high level programming language because that allows developers to write programs with fewer lines & highly readable syntax by humans than some other programming languages.
+     2.pyhton works on different platforms(Windows,Mac,Linux,Raspberry,pi,etc).
+     3.It runs on an interpreter system,it means that prototyping can be very quick.
+     4.It can be treated in a procedural way,an object-oriented way or a functional way.
+
+
+
+Q2. Why is Python called a dynamically typed language?
+ANS- 1.Python called a dynamically typed language beacuse even if we dont't declare the type of variable python don't have any problem.It states the kind of variable in the runtime of the program.
+     2.It also take cares of the memory management which is crucial in programming.
+     3.It was designed for readability,and has some similarites to the english language with influence from mathametics.
+
+
+
+Q3. List some pros and cons of Python programming language?
+Ans Pros
+    1-smooth learning curve(simple & easy)
+       Python is extremely begineer-friendly and relatively easy to learn,its simplified englis-like synatx for all developers
+    2-Extensive libraries
+       pyhton has a huge collection of libraries.These libraries contain code for CGI,web-browsers,image manipulation,data base,threading,unit testing & many more because of these libraries
+       it makes easier to code.This also helps to limit the length of code to write in python.some popluar python libraries are:TensorFlow,pandas,numpy,keras,pytorch etc
+    3-Versatility
+       python is probably the most versatile programming language today.It offers tools for almost every aplication which includes web development,GUI,data mining,machine learning.
+    4-Improved productivity
+       Developers don't need to spend long hours to code because its simplicity to implement the code.
+    5-Portability
+       In python we can write our code once, and it will run smoothly on different platforms with ease.
+    6-Interpreted language
+       It runs on interpreter system means it can be executed as soon as it is written, its prototyping is very quick
+   Cons
+    1-Speed and performance
+       Python programming is slower than other language like java & C++.
+    2-Mobile Computing
+       It is favourable language in many server & desktop platform but it still has a long way to go in mobile computing.
+    3-Database Access
+       It is underdeveloped in comparison to popular technologies lie JDBC & ODBC.
+    4-Runtime Errors
+       A run time error is a type of error that is raised when we run the application because pyhton language is dynamically typed.It has many design restrictions that might led to runtime error
+
+
+Q4. In what all domains can we use Python?
+Ans Python is used in very domains
+    1.Data Egineer or Big data
+    2.Data Analyst
+    3.Web Development
+    4.Data scientist & Machine learning.
+    5.Devops & system administration
+    6.Automated Testing
+    7.Software Prototyping.
+
+Q5. What are variable and how can we declare them?
+Ans-1.Variables are containers for storing data values.
+    2.python has no command for declaring a variable but a variable is created the moment you first assign a value to it.
+       Example
+         x=5
+         y="John"
+         print(x)
+         print(y)
+
+
+Q6. How can we take an input from the user in Python?
+
+Ans-Python uses the input() method.
+     For example
+      username=input("Enter user name:")
+       print("username is: ",username)
+
+Q7. What is the default datatype of the value that has been taken as an input using input() function?
+
+Ans-The input() function by default returns the value as string data type​.
+
+Q8. What is type casting?
+
+Ans-Type casting is the method to convert the variable data type into a certain data type in order to the operation required to be performed by users.
+    Casting in python is therefore done using constructor functions:
+    -int()
+    -float()
+    -string()
+    
+
+Q9. Can we take more than one input from the user using single input() function? If yes, how? If no, why?
+
+Ans-Yes, Python provides the two methods that help us to take multiple values or using single input() function 
+    Using split() method & list comprehension method.
+
+
+Q10. What are keywords?
+
+Ans-Python keywords are special reserved words that have specific meanings and purposes and can’t be used for anything but those specific purposes. These keywords are always available—you’ll never have to import them into your code.
+    Python keywords are different from Python’s built-in functions and types. 
+
+Q11. Can we use keywords as a variable? Support your answer with reason.
+Ans- We cannot use a keyword as a variable name.They are used to define the syntax and structure of the Python language. All the keywords except True , False and None are in lowercase and they must be written as they are.
+
+Q12. What is indentation? What's the use of indentaion in Python?
+Ans- Indentation refers to the spaces at the beginning of a code line.Where in other programming languages the indentation in code is for readability only, the indentation in Python is very important.
+     Python uses indentation to indicate a block of code.
+
+Q13. How can we throw some output in Python?
+Ans- By using print() function we can display output in python.
+
+Q14. What are operators in Python?
+Ans- Operators are used to perform operations on variables and values.
+     
+     Python divides the operators in the following groups:
+      Arithmetic operators
+      Assignment operators
+      Comparison operators
+      Logical operators
+      Identity operators
+      Membership operators
+      Bitwise operators
+
+Q15. What is difference between / and // operators?
+Ans- Both / and // operator is used to divide a number
+     /division operator gives exact output while as // Floor division operator rounds the result down to the nearest whole number
+
+Q16. Write a code that gives following as an output.
+Ans  multiply_numeric_str='iNeuron'*4
+     print("Multiply_numeric_str = ",multiply_numeric_str)
+
+     Output
+     iNeuroniNeuroniNeuroniNeuron
+
+
+Q17. Write a code to take a number as an input from the user and check if the number is odd or even.
+
+Ans- num=int(input("Enter any number ="))
+     if(num % 2)==0:
+        print("Number is even")
+     else:
+        print("Number is odd")
+
+Q18. What are boolean operator?
+
+Ans- Booleans operators represent one of two values: True or False.When you compare two values, the expression is evaluated and Python returns the Boolean answer
+
+Q19. What will the output of the following?
+```
+1 or 0
+Ans-True
+
+0 and 0
+Ans-False
+
+True and False and True
+Ans-False
+
+1 or 0 or 0
+Ans-True
+```
+
+Q20. What are conditional statements in Python?
+
+Ans-A conditional statement as the name suggests itself, is used to handle conditions in your program. These statements guide the program while making decisions based on the conditions encountered by the program.
+    Python has 3 key Conditional Statements that you should know:
+
+     1.if statement
+     2.if-else statement
+     3-if-elif-else statement
+ 
+
+Q21. What is use of 'if', 'elif' and 'else' keywords?
+
+Ans- if statement
+     The if statement is a conditional statement in python, that is used to determine whether a block of code will be executed or not. Meaning if the program finds the condition defined in the if statement to be true, it will go ahead and execute the code block inside the if statement.
+     
+     elif statement
+     The elif statement is used to check for multiple conditions and execute the code block within if any of the conditions evaluate to be true.
+
+     else statement
+     The else statement works in conjuncture with the if statement to execute a code block when the defined if condition is false.
+
+
+Q22. Write a code to take the age of person as an input and if age >= 18 display "I can vote". If age is < 18 display "I can't vote".
+
+Ans # getting input
+    age=int(input("Age of a person ="))
+
+    # if-else statement
+    if(age > 18):
+       print("I can vote")
+    else:
+       print("I cannot vote")
+
+
+Q23. Write a code that displays the sum of all the even numbers from the given list.
+```
+numbers = [12, 75, 150, 180, 145, 525, 50]
+
+Ans myList = [12, 75, 150, 180, 145, 525, 50]
+    result = 0                 # Intialize your results variable
+    for i in mylist:           # Loop through each element of the list.
+      if not i % 2:            # Test for even numbers.
+       result +=i
+    
+      print(result)
+
+Q24. Write a code to take 3 numbers as an input from the user and display the greatest no as output.
+
+Ans- a= int(input("Enter first number ="))
+     b= int(input("Enter first number ="))
+     c= int(input("Enter first number ="))
+
+     largest=0
+     if a>b and a>c:
+        largest = a
+     elif b>a and b>c:
+        largest = b
+     else:
+        largest=c
+
+     print("The largest of three numbers:",largest)
+     
+
+Q25. Write a program to display only those numbers from a list that satisfy the following conditions
+
+- The number must be divisible by five
+
+- If the number is greater than 150, then skip it and move to the next number
+
+- If the number is greater than 500, then stop the loop
+```
+numbers = [12, 75, 150, 180, 145, 525, 50]
+
+
+Ans numbers = [12, 75, 150, 180, 145, 525, 50]
+    
+    # iterate each item of a list
+    for item in numbers:
+        if item > 500:
+            break
+        elif item >150:
+            continue
+    # check if number is divisible by 5
+        elif item % 5 == 0:
+          print(item)
